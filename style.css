@@ -1,0 +1,147 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #11224d;
+}
+
+header {
+    color: #f6f1f1;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.visual-area {
+    height: auto;
+}
+
+.sort-button {
+    margin: 1px;
+    padding: 5px;
+    height: 50px;
+    background-color: #8125f9;
+    border-style: hidden;
+}
+
+.sort-button:hover {
+    color: #11224d;
+    background-color: #25f981;
+    box-shadow: 0px 0px 15px #25f981;
+    transform: scale(1.1);
+}
+
+.select-sort {
+    text-align: center;
+}
+
+.form-range {
+    margin: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.text {
+    color: #fdfdfd;
+    margin: 5px;
+    padding: 5px;
+}
+
+.bar-container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.bar-item{
+    background: #f98125;
+    border: 1pt solid black;
+    width: 15px;
+    transition: 0.1s all ease;
+}
+
+/* .bar-item:hover {
+    background: #fb9b50;
+    box-shadow: 0 5px 15px rgba(240, 133, 10, 0.6);
+    transform: scaleX(1.2);
+
+} */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #263969;
+    color: white;
+    text-align: center;
+}
+ 
+.profiles {
+    color: #11224d;
+    display: inline-block;
+    height:  40px;
+    width: 40px;
+    background-color: whitesmoke;
+    margin: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profiles i {
+    line-height: 40px;
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+
+.profiles:hover i {
+    transform: scale(1.1);
+} 
+
+#random-button {
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #25f981;
+    border-style: hidden;
+}
+
+#random-button:hover {
+    background-color: #f9259d;
+    transform: scale(1.1);
+    transition: 0.2s linear;
+    color: #f6f1f1;
+    box-shadow: 0px 0px 15px #f9259d;
+    transform: scale(1.1);
+}
+
+.si,.sp {
+    height: 50px;
+    margin: 5px;
+    background-color: #263969;
+    border-radius: 5px;
+}
+
+#arr,#spe {
+    color: #fdfdfd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px ;
+    background-color: #132f8b;
+    margin: 0px;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: solid;
+}
+
+#github:hover {
+    color: rgb(100, 98, 98);
+}
