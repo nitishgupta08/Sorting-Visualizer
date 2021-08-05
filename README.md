@@ -1,5 +1,5 @@
 # Sorting-Visualizer
- This is my first project. 
+ This is my first webDev project.
 
 # Features
 1. Change array size
