@@ -47,11 +47,10 @@ const sortTypes = ["#insertion-sort", "#merge-sort", "#quick-sort", "#selection-
 
 
 //Disables everything except speed and the ongoing sorting algo
-function disableInputs(type) {
+function disableInputs() {
 
     for (i in sortTypes) {
-        if (sortTypes[i] != type)
-            document.querySelector(sortTypes[i]).disabled = true;
+        document.querySelector(sortTypes[i]).disabled = true;
     }
     document.querySelector("#random-button").disabled = true;
     document.querySelector("#array-size").disabled = true;
