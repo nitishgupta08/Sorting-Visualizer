@@ -9,10 +9,15 @@
 5. Bubble Sort
 6. Merge Sort
 7. Quick Sort
-8. Heap Sort
 9. Site is responsive
 
 # Technologies used
 HTML, CSS, Bootstrap, Javascript
+
+
+# Features to add
+1. Shell sort
+2. Show bar value when you hover over the bar
+3. Light Mode(Maybe)
 
 
