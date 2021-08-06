@@ -1,6 +1,3 @@
-# Sorting-Visualizer
- This is my first webDev project.
-
 # Features
 1. Change array size
 2. Change animation speed
