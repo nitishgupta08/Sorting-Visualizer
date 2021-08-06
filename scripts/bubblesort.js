@@ -1,6 +1,6 @@
 async function bubbleSort() {
     console.log("Bubble Sort running");
-    disableInputs("#bubble-sort");
+    disableInputs();
     const arr = document.querySelectorAll(".bar");
     for (let i = 0; i < arr.length - 1; i++) {
 
