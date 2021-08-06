@@ -1,6 +1,6 @@
 async function selectionSort() {
     console.log("Selection Sort running");
-    disableInputs("#selection-sort");
+    disableInputs();
     const arr = document.querySelectorAll(".bar");
     for (let i = 0; i < arr.length - 1; i++) {
         arr[i].style.background = '#f9259d';
