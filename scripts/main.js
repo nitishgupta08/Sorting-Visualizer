@@ -43,7 +43,7 @@ arrayEle.addEventListener("input", generateArray);
 
 
 //Stores all sorting array methods
-const sortTypes = ["#insertion-sort", "#merge-sort", "#quick-sort", "#selection-sort", "#bubble-sort"]
+const sortTypes = ["#insertion-sort", "#merge-sort", "#quick-sort", "#selection-sort", "#bubble-sort", "#shell-sort"]
 
 
 //Disables everything except speed and the ongoing sorting algo
