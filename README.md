@@ -18,6 +18,5 @@ HTML, CSS, Bootstrap, Javascript
 
 # Features to add
 1. Show bar value when you hover over the bar
-2. Light Mode(Maybe)
 
 
