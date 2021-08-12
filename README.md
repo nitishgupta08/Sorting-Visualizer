@@ -1,3 +1,6 @@
+# Site Link
+https://ng-sorting-visualizer.netlify.app
+
 # Features
 1. Change array size
 2. Change animation speed
