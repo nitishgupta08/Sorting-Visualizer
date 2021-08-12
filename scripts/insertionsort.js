@@ -2,7 +2,6 @@ async function inserionSort() {
     console.log("Insertion Sort running");
     disableInputs();
     const arr = document.querySelectorAll(".bar");
-    arr[0].style.background = 'lightblue';
     for (let i = 1; i < arr.length; i++) {
         let key = arr[i].style.height;
         let j = i - 1;
