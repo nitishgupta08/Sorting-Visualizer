@@ -26,7 +26,7 @@
                     <div class="si" style="display: flex;">
                         <p id="arr">Size</p>
                         <p class="text">2</p>
-                        <input type="range" min="2" max="100" value="33" class="form-range" id="array-size">
+                        <input type="range" min="2" max="100" value="39" class="form-range" id="array-size">
                         <p class="text">100</p>
                     </div>
                 </div>
@@ -43,7 +43,8 @@
                         Sort</button>
                     <button class="btn btn-primary sort-button" id="quick-sort" onclick="quick_sort()">Quick
                         Sort</button>
-                    <!-- <button class="btn btn-primary sort-button" id="shell-sort">Shell Sort</button> -->
+                    <button class="btn btn-primary sort-button" id="shell-sort" onclick="shellSort()">Shell
+                        Sort</button>
                 </div>
             </div>
             <div class="col-xl-3 col-sm-12">
@@ -72,7 +73,7 @@
         <div class="row" style="justify-content: center;">
             <button class=" btn" onclick="generateArray()" id="random-button">Randomize</button>
         </div>
-        <!--Below three rows are just so footer stays at bottom and does not hide randomize button-->
+        <!--Below three rows are just so footer stays at bottom and does not hide randomize button when on a phone-->
         <div class="row">1</div>
         <div class="row">2</div>
         <div class="row">3</div>
@@ -97,6 +98,7 @@
     <script src="/scripts/bubblesort.js"></script>
     <script src="/scripts/quicksort.js"></script>
     <script src="/scripts/mergesort.js"></script>
+    <script src="/scripts/shellsort.js"></script>
 
 </body>
 
