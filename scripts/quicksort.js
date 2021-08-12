@@ -45,6 +45,9 @@ async function quick_sort() {
     console.log("Quick sort running");
     disableInputs();
     let arr = document.querySelectorAll('.bar');
+    for (let k = arr.length - 1; k >= 0; k--) {
+        arr[k].style.background = '#25f9eb';
+    }
     await quickSort(arr, 0, parseInt(arr.length) - 1);
     for (let k = arr.length - 1; k >= 0; k--) {
         arr[k].style.background = '#f98125';
