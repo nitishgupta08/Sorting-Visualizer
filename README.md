@@ -1,3 +1,9 @@
+
+# Project Demo
+https://user-images.githubusercontent.com/57590993/129728819-fcc840af-3d18-44c5-af1b-d1e5daec979c.mov
+
+
+
 # Site Link
 https://ng-sorting-visualizer.netlify.app
 
@@ -13,7 +19,7 @@ https://ng-sorting-visualizer.netlify.app
 9. Site is responsive
 
 # Technologies used
-HTML, CSS, Bootstrap, Javascript
+HTML, CSS, Bootstrap, Vanilla Javascript
 
 
 # Features to add
