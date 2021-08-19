@@ -1,11 +1,10 @@
+# Site Link
+https://ng-sorting-visualizer.netlify.app
+
 
 # Project Demo
 https://user-images.githubusercontent.com/57590993/129728819-fcc840af-3d18-44c5-af1b-d1e5daec979c.mov
 
-
-
-# Site Link
-https://ng-sorting-visualizer.netlify.app
 
 # Features
 1. Change array size
@@ -23,6 +22,6 @@ HTML, CSS, Bootstrap, Vanilla Javascript
 
 
 # Features to add
-1. Show bar value when you hover over the bar
+1. Tooltip to show bar value.
 
 
