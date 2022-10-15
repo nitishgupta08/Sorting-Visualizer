@@ -15,13 +15,8 @@ https://user-images.githubusercontent.com/57590993/129728819-fcc840af-3d18-44c5-
 6. Merge Sort
 7. Quick Sort
 8. Shell sort
-9. Site is responsive
+9. Heap Sort
+10. Site is responsive
 
 # Technologies used
-HTML, CSS, Bootstrap, Vanilla Javascript
-
-
-# Features to add
-1. Tooltip to show bar value.
-
-
+HTML, CSS, Bootstrap, Javascript
