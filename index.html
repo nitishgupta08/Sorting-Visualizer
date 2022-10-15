@@ -26,7 +26,7 @@
                     <div class="si" style="display: flex;">
                         <p id="arr">Size</p>
                         <p class="text">2</p>
-                        <input type="range" min="2" max="100" value="39" class="form-range" id="array-size">
+                        <input type="range" min="2" max="100" value="45" class="form-range" id="array-size">
                         <p class="text">100</p>
                     </div>
                 </div>
@@ -44,6 +44,8 @@
                     <button class="btn btn-primary sort-button" id="quick-sort" onclick="quick_sort()">Quick
                         Sort</button>
                     <button class="btn btn-primary sort-button" id="shell-sort" onclick="shellSort()">Shell
+                        Sort</button>
+                    <button class="btn btn-primary sort-button" id="shell-sort" onclick="heapsort()">Heap
                         Sort</button>
                 </div>
             </div>
@@ -74,9 +76,9 @@
             <button class=" btn" onclick="generateArray()" id="random-button">Randomize</button>
         </div>
 
-        <div class="row position-relative">
+        <div class="row position-absolute bottom-0 w-100">
             <footer>
-                <a href="https://www.linkedin.com/in/nitish-kumar-gupta-667bb018a/" class="profiles" target="_blank"><i
+                <a href="https://www.linkedin.com/in/nitishgupta24/" class="profiles" target="_blank"><i
                         class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/nitishgupta08" class="profiles" target="_blank" id="github"><i
                         class="fab fa-github"></i></a>
@@ -95,6 +97,7 @@
     <script src="/scripts/quicksort.js"></script>
     <script src="/scripts/mergesort.js"></script>
     <script src="/scripts/shellsort.js"></script>
+    <script src="/scripts/heapsort.js"></script>
 
 </body>
 
